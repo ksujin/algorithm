@@ -17,19 +17,12 @@ public class B_9084 {
 
 
             int dp[] = new int[goal+1];
-            for (int j = 0; j < coinTypeCount ; j++) {
-                int coin = coins[j];
-                if(coin <= goal){
-                    for (int k = 0; k <= goal ; k++) {
-                        if(k == coin) {
-                            dp[k] = dp[k] + 1;
-                        } else if (coin < k ){
-                            dp[k] = dp[k] + dp[k-coin];
-                        }
-                    }
+            dp[0] = 1;
+            for (int j = 0; j < coinTypeCount; j++) {
+                for (int k = coins[j]; k <= goal ; k++) {
+                    dp[k] = dp[k] + dp[k-coins[j]];
                 }
             }
-
             System.out.println(dp[goal]);
 
         }
