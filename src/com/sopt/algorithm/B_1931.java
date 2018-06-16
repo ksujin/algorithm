@@ -58,8 +58,8 @@ public class B_1931 {
             if(o1.end < o2.end){
                 return -1;
             } else if(o1.end == o2.end){
-                if(o1.start > o2.start) return 0;
-                else return -1;
+                if(o1.start < o2.start) return -1;
+                else return 0;
 
             } else {
                 return 1;
