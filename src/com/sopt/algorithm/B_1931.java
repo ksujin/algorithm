@@ -52,6 +52,8 @@ public class B_1931 {
 
     }
 
+    //(0,1) (1,1) 처럼 끝나는 시간 같을때는 시작시간이 빠른 순으로 정렬 해 줘야한다
+
     public class compare implements Comparator<meeting>{
         @Override
         public int compare(meeting o1, meeting o2) {
