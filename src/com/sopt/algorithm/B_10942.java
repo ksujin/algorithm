@@ -1,6 +1,9 @@
 package com.sopt.algorithm;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /*
 * 왼쪽 끝과 오른쪽 끝이 같다면, 그 사이의 숫자가 팰린드롬이라면, 이 숫자는 팰린드롬이 된다.
 하나하나 이동하면서 비교할 필요가 없고, 그 사이의 수가 팰린드롬인지 판단하면 된다.
@@ -11,13 +14,16 @@ dp[s][e] = array[s] == array[e] && dp[s + 1][e - 1]
 출처: http://mygumi.tistory.com/176 [마이구미의 HelloWorld]
 * */
 public class B_10942 {
-    public static void main(String args[]){
-        Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
+    public static void main(String args[]) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(br.readLine());
         int inputArr[] = new int[n+1];
         boolean dp[][] = new boolean[n+1][n+1];
+        String[] tempArr = new String[n];
+        tempArr = br.readLine().split(" ");
         for (int i = 1; i <= n; i++) {
-            inputArr[i] = scn.nextInt();
+            inputArr[i] = Integer.valueOf(tempArr[i-1]);
         }
 
 
@@ -42,18 +48,19 @@ public class B_10942 {
 
 
 
-        int qCount = scn.nextInt();
+        int qCount = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
         while (qCount-- > 0){
-            int startIdx = scn.nextInt();
-            int endIdx = scn.nextInt();
+            String tempInput[] = new String[2];
+            tempInput = br.readLine().split(" ");
+            int startIdx = Integer.parseInt(tempInput[0]);
+            int endIdx = Integer.parseInt(tempInput[1]);
             if(dp[startIdx][endIdx]){
                 sb.append("1\n");
             } else {
                 sb.append("0\n");
             }
-            //System.out.println(dp[startIdx][endIdx] ? "1" : "0");
-
+            
         }
         System.out.println(sb);
     }
