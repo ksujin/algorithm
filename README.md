@@ -1,6 +1,51 @@
 # Algorithm
 
+### 20190303
+
+- [9465 스티커](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_9465.java)
+
+  `i`와 `j`의 순서 바뀌면 안됨. 지그재그로 가면서 `dp` 구해야함
+
+  ```java
+  for (int i = 2; i < n; i++) {
+      for (int j = 0; j < 2; j++) {
+          dp[i][j] = Math.max(sticker[i][j]+dp[i-1][(j+1)%2], sticker[i][j]+dp[i-2][(j+1)%2]);
+      }
+  }
+  ```
+
+  
+
+### 20190304
+
+- [11723 집합](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_11723.java)
+
+  연산의 수 M (1 ≤ M ≤ 3,000,000) 이 많기 때문에 그대로 출력하면 시간초과. `StringBuilder` 사용
+
+  
+
+### 20190305
+
+- [10972 다음 순열](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_10972.java)
+
+   `A[i]` 와 `A[j]`가 아닌, `A[i-1]` 와 `A[j]`를 swap 하는 것에 유의
+
+- [10973 이전 순열](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_10973.java)
+
+  다음 순열에서 `while` 절에 있는 부호 바꾸면 됨
+
+- [10974 모든 순열](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_10974.java)
+
+- [1722 순열의 순서](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_1722.java)
+
+  N(1≤N≤20), k(1≤k≤N!) 처럼 k의 범위가 크기 때문에 자료형  `long` 사용해야함. 안그러면 런타임 에러.
+
+  k가 크기때문에 k번째 순열을 구할때 다음 순열을 반복하기보다  `factorial` 이용해서 풀어야함.
+
+
+
 ## 알고리즘 공부 순서
+
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
 
 1. **알고리즘과 입/출력**
