@@ -1,6 +1,8 @@
 # Algorithm
 
-### 20190303
+## 2019
+
+### 0303
 
 - [9465 스티커](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_9465.java)
 
@@ -16,7 +18,7 @@
 
   
 
-### 20190304
+### 0304
 
 - [11723 집합](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_11723.java)
 
@@ -24,7 +26,7 @@
 
   
 
-### 20190305
+### 0305
 
 - [10972 다음 순열](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_10972.java)
 
@@ -43,6 +45,16 @@
   k가 크기때문에 k번째 순열을 구할때 다음 순열을 반복하기보다  `factorial` 이용해서 풀어야함.
 
 
+
+###0306
+
+- [1476 날짜 계산](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_1476.java)
+
+  나올 수 있는 경우의 수(15\*28\*19)가 작기 때문에 bruteforce 기법도 가능하나, 중국인의 나머지 정리([Chinese Remainder Theorem](https://joonas.tistory.com/23)) 사용 가능
+
+  `x % 15 = e, x % 28 = s, x % 19 = m` 을 만족하는 `x`를 구함
+
+  
 
 ## 알고리즘 공부 순서
 
