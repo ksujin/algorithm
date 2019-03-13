@@ -46,7 +46,7 @@
 
 
 
-###0306
+### 0306
 
 - [1476 날짜 계산](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_1476.java)
 
@@ -54,16 +54,16 @@
 
   `x % 15 = e, x % 28 = s, x % 19 = m` 을 만족하는 `x`를 구함
 
-###0307
-- [1001 A-B]
+### 0307
+- [1001 A-B](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_1001.java)
 
-###0311
+### 0311
 
-- [4673 셀프넘버]
+- [4673 셀프넘버](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_4673.java)
 
-###0314
+### 0314
 
-- [14226 이모티콘]
+- [14226 이모티콘]https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_14226.java
 
   BFS 문제. 다시 풀기
 
