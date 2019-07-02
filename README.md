@@ -63,11 +63,19 @@
 
 ### 0314
 
-- [14226 이모티콘]https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_14226.java
+- [14226 이모티콘](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_14226.java)
 
   BFS 문제. 다시 풀기
 
   참고 : https://jaejin89.tistory.com/45
+- [11729 하노이 탑 이동 순서](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_11729.java)
+
+  하노이탑 문제. 다시 풀기
+  1. 1에서 n-1개를 2로 옮긴다.
+  2. 1에서 1개를 3으로 옮긴다.
+  3. 2에서 n-1개를 3으로 옮긴다.
+
+  참고 : https://hyeonstorage.tistory.com/355
 
 ## 알고리즘 공부 순서
 
