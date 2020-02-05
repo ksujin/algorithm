@@ -112,6 +112,44 @@
 
   출처 : <https://www.acmicpc.net/board/view/9744>
 
+- [드래곤 커브](<https://www.acmicpc.net/problem/15685>)
+
+  이전세대까지 진행된 점들에 대해 역방향으로 그려지는 규칙을 찾는 것이 중요
+
+  참고 <https://limkydev.tistory.com/158>
+
+  ​	<https://dublin-java.tistory.com/34>
+
+  **Swallow Copy , Deep Copy**
+
+  a[i] = b[i]
+
+  이런식으로 배열 복사하면 한쪽 값 수정시 다른 쪽 값도 변경됨.
+
+  = 연산자는 **주소를 이어준다**는 의미이기 때문. 이를 얕은 복사 (swallow copy)라고 함
+
+  값 복사를 위해서는
+
+  - arrayList에서는 `list.copyAll()` 이나, `list.addAll()`;
+
+  - 1차원 배열의 경우 `list.clone()` 로 해결가능하지만 2차원 배열 같은경우 따로 함수 작성 필요.
+
+    ```java
+    public static String[][] deepCopy(String[][] original, int n) {
+        if (original == null) {
+            return null;
+        }
+    
+        String[][] result = new String[n][n];
+        for (int i = 0; i < original.length; i++) {
+            System.arraycopy(original[i], 0, result[i], 0, original[i].length);
+        }
+        return result;
+    }
+    ```
+
+  출처 <https://vivi-world.tistory.com/27>
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
