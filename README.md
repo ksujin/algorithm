@@ -1,3 +1,5 @@
+
+
 # Algorithm
 
 ## 2019
@@ -68,6 +70,7 @@
   BFS 문제. 다시 풀기
 
   참고 : https://jaejin89.tistory.com/45
+
 - [11729 하노이 탑 이동 순서](https://github.com/sujinnaljin/algorithm/blob/master/src/com/sopt/algorithm/B_11729.java)
 
   하노이탑 문제. 다시 풀기
@@ -76,6 +79,38 @@
   3. 2에서 n-1개를 3으로 옮긴다.
 
   참고 : https://hyeonstorage.tistory.com/355
+
+
+
+### 0205
+
+- [10828 스택](https://www.acmicpc.net/problem/10828)
+
+  **Stack 자료구조**
+
+- ```java
+  Stack<Integer> stack = new Stack<>();
+  ```
+
+  **BufferedWriter**
+
+  int 출력 시, String으로 변환시켜줘야 함
+
+  **BufferedReader**
+
+  1. 기본적으로 BufferedReader는 **한 줄을 통째로 입력받는 방법**으로 주로 쓰입니다.
+
+  2. **readLine()** 메서드는 값을 읽어올 때, **String값**으로 개행문자(엔터값)를 포함해 **한줄을 전부 읽어오는 방식**입니다.
+
+     비슷한 예로 Scanner메서드 중 nextLine()도 스트링 값과 개행문자(엔터값)을 같이 읽어옵니다.(반면 next()는 개행문자는 제외하고 스트링 값만 읽어옵니다.)
+
+  3. **read()** 메서드는 값을 읽어올 때, **int값으로 변형**하여 읽어오는 방식입니다.
+
+     예를들어 input.txt에 저장된 **1**이라는 숫자를 read()를 통해 읽어오면  int형 숫자 1을 읽어오는 것이 아닌, txt형식으로 저장된 **ASCII 형식의 문자값 '1'**을 읽어오는 것이므로 결국 **int값으론 49**를 읽어오는 것이 됩니다. 
+
+     이를 해결하려면 **int a = br.read() - 48; br.readLine();** 을 하여 ASCII 값에서 뻴셈을 이용한 뒤 엔터 값을 읽어오거나, **int a = Integer.parseInt(br.readLine());** 를 통해 엔터값을 포함해 한줄을 통째로 입력받은 뒤 해당 스트링값을 int로 형변환 해주는 방법이 있습니다.
+
+  출처 : <https://www.acmicpc.net/board/view/9744>
 
 ## 알고리즘 공부 순서
 
