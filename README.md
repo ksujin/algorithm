@@ -176,6 +176,8 @@
 
 - [2558 A+B - 2](<https://www.acmicpc.net/problem/2558>)
 
+- [1008 A/B](<https://www.acmicpc.net/problem/1008>)
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
