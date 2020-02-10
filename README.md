@@ -156,7 +156,25 @@
 
   풀이 참고 : <https://www.youtube.com/watch?v=sfIseJYH7NE>
 
+### 200210
 
+- [1389 케빈 베이컨의 6단계 법칙](<https://www.acmicpc.net/problem/1389>)
+
+  너비 우선 탐색(BFS)의 특징
+
+  - BFS는 재귀적으로 동작하지 않는다.
+
+  - 어떤 노드를 **방문했었는지 여부**를 반드시 검사 해야 한다. 이를 검사하지 않을 경우 무한루프에 빠질 위험이 있다.
+
+  - 자료 구조 **큐(Queue)**를 사용한다. 즉, 선입선출(FIFO) 원칙으로 탐색
+
+    참고 : https://gmlwjd9405.github.io/2018/08/15/algorithm-bfs.html
+
+  - BFS에서 **level** 구할땐 **qSize** 이용해서 구할 수 있다.
+
+    참고 : <https://sunpil.tistory.com/22>
+
+    
 
 
 
