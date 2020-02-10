@@ -178,6 +178,23 @@
 
 - [1008 A/B](<https://www.acmicpc.net/problem/1008>)
 
+- [2252 줄 세우기](<https://www.acmicpc.net/problem/2252>)
+
+  **위상 정렬**
+
+  어떤 일을 하는 **순서를 찾는 알고리즘**.
+
+  즉, 방향 그래프에 존재하는 각 정점들의 선행 **순서를 위배하지 않으면서 모든 정점을 나열**하는 것
+
+  1. 간선의 수가 0인 모든 정점을 큐에 삽입
+  2. 큐에서 poll()로 선택된 정점 출력 및 삭제
+  3. 선택된 정점에 부속된 모든 간선의 수를 감소
+  4. 위의 과정을 반복해서 모든 정점이 선택, 삭제되면 알고리즘 종료
+
+  참고 : https://gmlwjd9405.github.io/2018/08/27/algorithm-topological-sort.html
+
+  
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
