@@ -82,7 +82,7 @@
 
 
 
-### 0205
+### 200205
 
 - [10828 스택](https://www.acmicpc.net/problem/10828)
 
@@ -149,6 +149,16 @@
     ```
 
   출처 <https://vivi-world.tistory.com/27>
+
+### 200205
+
+- [17779 개리맨더링2](<https://www.acmicpc.net/problem/17779>)
+
+  풀이 참고 : <https://www.youtube.com/watch?v=sfIseJYH7NE>
+
+
+
+
 
 ## 알고리즘 공부 순서
 
