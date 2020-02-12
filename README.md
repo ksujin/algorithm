@@ -236,7 +236,19 @@
 
   풀이 : <https://mygumi.tistory.com/183>
 
-  
+- [10951 A+B - 4](<https://www.acmicpc.net/problem/10951>)
+
+  **EOF 처리**
+
+  1. Scanner
+     1. `.hasNextLine()`
+     2. `.hasNextInt()`
+
+  2. BufferedReader
+
+     `(input = br.readLine()) != null`
+
+
 
 ## 알고리즘 공부 순서
 
