@@ -226,6 +226,16 @@
           }
   ```
 
+- [2014 소수의 곱](<https://www.acmicpc.net/problem/2014>)
+
+  Priority Queue에서 **n번째 뺀 값이 n번째 수가 된다.**
+
+  중복 제거를 위한 `if (head % prime[j] == 0) break;`
+
+  `long` 형에 유의
+
+  풀이 : <https://mygumi.tistory.com/183>
+
   
 
 ## 알고리즘 공부 순서
