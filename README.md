@@ -248,6 +248,8 @@
 
      `(input = br.readLine()) != null`
 
+- [10952 A+B - 5](<https://www.acmicpc.net/problem/10952>)
+
 
 
 ## 알고리즘 공부 순서
