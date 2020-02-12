@@ -82,7 +82,9 @@
 
 
 
-### 200205
+## 2020
+
+### 0205
 
 - [10828 스택](https://www.acmicpc.net/problem/10828)
 
@@ -150,13 +152,13 @@
 
   출처 <https://vivi-world.tistory.com/27>
 
-### 200205
+### 0205
 
 - [17779 개리맨더링2](<https://www.acmicpc.net/problem/17779>)
 
   풀이 참고 : <https://www.youtube.com/watch?v=sfIseJYH7NE>
 
-### 200210
+### 0210
 
 - [1389 케빈 베이컨의 6단계 법칙](<https://www.acmicpc.net/problem/1389>)
 
@@ -184,7 +186,9 @@
 
   어떤 일을 하는 **순서를 찾는 알고리즘**.
 
-  즉, 방향 그래프에 존재하는 각 정점들의 선행 **순서를 위배하지 않으면서 모든 정점을 나열**하는 것
+  즉, 방향 그래프에 존재하는 각 정점들의 선행 **순서를 위배하지 않으면서 모든 정점을 나열**하는 것.
+
+  DAG(Directed Acyclic Graph)에서만 가능. 즉 **사이클이 존재하면 안됨.**
 
   1. 간선의 수가 0인 모든 정점을 큐에 삽입
   2. 큐에서 poll()로 선택된 정점 출력 및 삭제
@@ -192,6 +196,35 @@
   4. 위의 과정을 반복해서 모든 정점이 선택, 삭제되면 알고리즘 종료
 
   참고 : https://gmlwjd9405.github.io/2018/08/27/algorithm-topological-sort.html
+
+### 0212
+
+- [1766 문제집](<https://www.acmicpc.net/problem/1766>)
+
+  **우선 순위 큐**
+
+  ```PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();```
+
+  Integer은 4,2,1,3 순서대로 들어가도 poll 하면 1 먼저 나온다
+
+  
+
+  * graph 만들때 아래 두가지 방법 중에 2가 더 속도 및 메모리 측면에서 좋게 나왔다.
+
+  ```java
+  1. ArrayList<Integer>[] graph = new ArrayList[n+1];
+  2. ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
+  ```
+
+  아래처럼 `.add` 통해 ArrayList 안의 ArrayList 초기화 필요
+
+  ```java
+          ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
+          //초기화 필요
+          for(int i=0; i<= n; i++){
+              graph.add(new ArrayList<>());
+          }
+  ```
 
   
 
