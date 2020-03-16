@@ -254,6 +254,16 @@
 
 - [11021 A+B - 6](<https://www.acmicpc.net/problem/11021>)
 
+### 0316
+
+- [13460 구슬 탈출 2](<https://www.acmicpc.net/problem/13460>)
+
+  BFS 는 Queue 이용. Queue 는 LinkedList로 만들 수 있다. 방문여부 판단이 필요하다.
+
+  참고 : <https://ghkvud2.tistory.com/40>
+
+
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
