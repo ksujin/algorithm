@@ -268,6 +268,10 @@
 
   참고 : <https://indesire.tistory.com/113>
 
+- [3190 뱀](<https://www.acmicpc.net/problem/3190>)
+
+  참고 : <https://sangdo913.tistory.com/164>
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
