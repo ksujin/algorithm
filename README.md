@@ -262,7 +262,11 @@
 
   참고 : <https://ghkvud2.tistory.com/40>
 
+### 0320
 
+- [2048 (Easy)](<https://www.acmicpc.net/problem/12100>)
+
+  참고 : <https://indesire.tistory.com/113>
 
 ## 알고리즘 공부 순서
 
