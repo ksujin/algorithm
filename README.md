@@ -282,6 +282,12 @@
 
 - [14499 주사위 굴리기](<https://www.acmicpc.net/problem/14499>)
 
+### 0323
+
+- [14500 테트로미노](<https://www.acmicpc.net/problem/14500>)
+
+  간단하게 하나씩 따져보는게 빠를 수도 있다
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
