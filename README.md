@@ -288,6 +288,12 @@
 
   간단하게 하나씩 따져보는게 빠를 수도 있다
 
+### 0324
+
+- [14501 퇴사](https://www.acmicpc.net/problem/14501)
+
+  dp로 풀어야하는데..쩝..
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
