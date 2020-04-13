@@ -294,6 +294,12 @@
 
   dp로 풀어야하는데..쩝..
 
+### 0410
+
+- [14502 연구소](<https://www.acmicpc.net/problem/14502>)
+
+
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
