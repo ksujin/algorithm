@@ -377,6 +377,9 @@
     int[] tmp = Arrays.copyOfRange(array, start, finish);
     ```
 
+- [P_43165 타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
+
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
