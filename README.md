@@ -371,8 +371,11 @@
 
 - [P_42577 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
 
-  
+- [P_42748 K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 
+  - ```
+    int[] tmp = Arrays.copyOfRange(array, start, finish);
+    ```
 
 ## 알고리즘 공부 순서
 
