@@ -369,6 +369,10 @@
 
 - [P_42840 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 
+- [P_42577 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
+
+  
+
 
 ## 알고리즘 공부 순서
 
