@@ -1,5 +1,3 @@
-
-
 # Algorithm
 
 ## 2019
@@ -114,7 +112,7 @@
 
   출처 : <https://www.acmicpc.net/board/view/9744>
 
-- [드래곤 커브](<https://www.acmicpc.net/problem/15685>)
+- [15685 드래곤 커브](<https://www.acmicpc.net/problem/15685>)
 
   이전세대까지 진행된 점들에 대해 역방향으로 그려지는 규칙을 찾는 것이 중요
 
@@ -329,7 +327,7 @@
 
 - [14889 스타트와 링크](<https://www.acmicpc.net/problem/14889>)
 
-  - 조합 (<https://bcp0109.tistory.com/15>)
+  - 조합 (참고 : <https://bcp0109.tistory.com/15>)
 
     배열을 처음부터 마지막까지 돌며
 
@@ -355,8 +353,8 @@
             //시작점은 현재 index
             for (int i = start; i <n ; i++) {
                 visited[i] = true;
-                //i번째 값을 뽑았으니까 start+1, r-1로 바꿔줌
-                doComb(arr, visited, start+1, n, r-1);
+                //i번째 값을 뽑았으니까 i+1, r-1로 바꿔줌
+                doComb(arr, visited, i+1, n, r-1);
                 //i번째 값을 안뽑았을때
                 visited[i] = false;
             }
@@ -365,7 +363,11 @@
 
     
 
+## 2021
 
+### 0408
+
+- [P_42840 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 
 
 ## 알고리즘 공부 순서
