@@ -369,6 +369,14 @@
 
 - [P_42840 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 
+  list 를 아래와 같이 array로 바꿀 수 있으나 효율성 측면에서 그다지 좋진 않은듯
+
+  ```
+  List<Integer> res = new ArrayList<>();
+  res.add(1);
+  res.stream().mapToInt(i -> i).toArray();
+  ```
+
 - [P_42577 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
 
 - [P_42748 K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
@@ -378,6 +386,12 @@
     ```
 
 - [P_43165 타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
+
+### 0413
+
+- [P_42578 위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
+
+  안 입을수 있다는 조건을 '투명옷'으로 entry를 하나 추가하면 아주 쉽게 해결되는 문제. -> https://bubobubo003.tistory.com/44
 
 
 ## 알고리즘 공부 순서
