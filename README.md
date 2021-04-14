@@ -404,6 +404,11 @@
   });
   ```
 
+### 0414
+
+- [P_42839 소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
+  - 순열과 조합 공부를 제대로 하자. https://bcp0109.tistory.com/entry/%EC%88%9C%EC%97%B4-Permutation-Java
+  - 소수점 판별법은 입력받은 숫자의 제곱근 까지의 숫자로 나누어본다. Math.sqrt 쓰는 대신 for 안에서 `i*i <= num` 로도 같은 효과를 낼 수 있다.
 
 ## 알고리즘 공부 순서
 
