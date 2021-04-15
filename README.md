@@ -393,6 +393,10 @@
 
   안 입을수 있다는 조건을 '투명옷'으로 entry를 하나 추가하면 아주 쉽게 해결되는 문제. -> https://bubobubo003.tistory.com/44
 
+  ```java
+  map.put(clothe[1], map.getOrDefault(clothe[1], 0) + 1);
+  ```
+
 - [P_42746 가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
 
   ```java
@@ -412,6 +416,22 @@
 - [P_43162 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
   - https://syundev.tistory.com/158
   - 바보니 수진아????????????????????????????????????????????????????????????????????????
+
+### 0416
+
+- [P_42579 베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
+
+  ```java
+  int[] answer = new int[3];
+  
+  Arrays
+          .stream(answer) //IntStream
+          .boxed() //Stream<Integer>
+          .mapToInt(i -> i) //IntStream
+          .toArray(); //int[]
+  ```
+
+  
 
 ## 알고리즘 공부 순서
 
