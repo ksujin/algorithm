@@ -431,7 +431,7 @@
           .toArray(); //int[]
   ```
 
-  
+- [P_42747 H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 
 ## 알고리즘 공부 순서
 
