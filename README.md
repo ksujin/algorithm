@@ -433,6 +433,10 @@
 
 - [P_42747 H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 
+### 0418
+
+- [P_42842 카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
