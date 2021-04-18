@@ -437,6 +437,10 @@
 
 - [P_42842 카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)
 
+- [P_43164 여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)
+
+  자꾸 테케 1,2 번에서 틀려서 뭐가 문젠가 찾아봤는데 https://deok2kim.tistory.com/118 여기서도 똑같이 1,2 번이 틀렸다 했다. 문제는 중간에 길이 끊이는 경우도 있는데, 나는 그런 것과 상관없이 map에서 다음 길을 key로해서 값을 찾으려 들었기 때문. 따라서 get 하기 전에 containsKey 로 값 존재 여부를 체크
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
