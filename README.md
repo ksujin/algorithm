@@ -463,6 +463,12 @@
 
     출처: https://goodteacher.tistory.com/112 [모두의 코딩]
 
+- [P_42626 더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+
+  힙(heap) - 완전 이진 트리의 일종으로 **우선순위 큐를 위하여** 만들어진 자료구조. 즉, **최댓값이나 최솟값을 빠르게** 찾아내도록 만들어짐.
+  힙은 일종의 **반정렬 상태(느슨한 정렬 상태)** 를 유지한다. **큰 값이 상위 레벨에 있고 작은 값이 하위 레벨**에 있다는 정도
+  출처: https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
