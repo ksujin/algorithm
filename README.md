@@ -445,6 +445,24 @@
 
   자바 IDE 에서 테스트케이스를 돌려봤을때 맞는데, 프로그래머스에서 돌리면 다른 결과가 나왔다;;; 뭐지 싶어서 스위프트 같은 로직으로 푸니까 맞음;; 얼탱
 
+### 0420
+
+- [P_42583 다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
+
+  - Queue는 linkedList로 만든다
+
+  - Queue에 데이터를 추가, 삭제, 검색할 때 제공되는 메서드들의 차이는 기능적인 것은 아니며 문제 상황에서 예외를 던지느냐 아니면 null 또는 false를 반환하느냐에 있다.
+
+    |               | 예외 발생 | 값 리턴  |
+    | ------------- | --------- | -------- |
+    | 추가(enqueue) | add(e)    | offer(e) |
+    | 삭제(dequeue) | remove()  | poll()   |
+    | 검사(peek)    | element() | peek()   |
+
+    즉 enqueue 동작 처리를 위해서 데이터를 추가해야하는데 이미 큐가 꽉 찬 경우 add는 예외를 발생시키지만 offer는 추가 실패를 의미하는 false를 리턴한다.
+
+    출처: https://goodteacher.tistory.com/112 [모두의 코딩]
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
