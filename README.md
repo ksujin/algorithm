@@ -471,6 +471,20 @@
 
 - [P_42586 기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 
+### 0422
+
+- [P_42627 디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
+
+  [여기](https://codevang.tistory.com/316) 보고 베낀 수준. 푼다고 풀었는데.. 시간 초과만 났다. index 를 잘쓰자.
+
+  ```java
+  //람다식으로 정렬하는 방법
+  Arrays.sort(jobs, (o1, o2) -> o1[0] - o2[0]);
+  new PriorityQueue<>((o1, o2) -> o1[1] - o2[1]);
+  ```
+
+  
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
