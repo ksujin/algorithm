@@ -485,6 +485,10 @@
 
   
 
+### 0427
+
+- [L_997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
