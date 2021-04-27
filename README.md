@@ -489,6 +489,11 @@
 
 - [L_997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 
+- [L_121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+  - [[알고리즘] Leetcode best time to buy and sell stock 파이썬 풀이](https://sj602.github.io/2020/04/17/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Leetcode-best-time-to-buy-and-sell-stock-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%92%80%EC%9D%B4/) 여기 참고 했다. easy 부터 못풀다니.. dp 도 아닌것 같은데.. 나는 dp 바보..
+- 
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
