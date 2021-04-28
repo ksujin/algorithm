@@ -490,9 +490,13 @@
 - [L_997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 
 - [L_121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [[알고리즘] Leetcode best time to buy and sell stock 파이썬 풀이](https://sj602.github.io/2020/04/17/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Leetcode-best-time-to-buy-and-sell-stock-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%92%80%EC%9D%B4/) 여기 참고 했다. easy 부터 못풀다니.. dp 도 아닌것 같은데.. 나는 dp 바보..
 
-  - [[알고리즘] Leetcode best time to buy and sell stock 파이썬 풀이](https://sj602.github.io/2020/04/17/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Leetcode-best-time-to-buy-and-sell-stock-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%92%80%EC%9D%B4/) 여기 참고 했다. easy 부터 못풀다니.. dp 도 아닌것 같은데.. 나는 dp 바보..
-- 
+### 0428
+
+- [L_1025. Divisor Game](https://leetcode.com/problems/divisor-game/)
+  - 처음에 dfs 로 풀었는데 test 코드랑 submit 코드랑 또 input / output 결과가 다르게 나왔다.
+  - https://devjun.tistory.com/113 결국 여기를 참고했는데 n 이 짝/홀이냐 판단하면 해결되는 문제였음. 홀리..
 
 ## 알고리즘 공부 순서
 
