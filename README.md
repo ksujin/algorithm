@@ -498,6 +498,14 @@
   - 처음에 dfs 로 풀었는데 test 코드랑 submit 코드랑 또 input / output 결과가 다르게 나왔다.
   - https://devjun.tistory.com/113 결국 여기를 참고했는데 n 이 짝/홀이냐 판단하면 해결되는 문제였음. 홀리..
 
+### 0505
+
+- [L_349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+  - 합집합 : addAll()
+  - 교집합: retainAll()
+  - 차집합: removeAll()
+  - 부분 집합 여부(boolean): containsAll()
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
