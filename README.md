@@ -505,7 +505,11 @@
   - 교집합: retainAll()
   - 차집합: removeAll()
   - 부분 집합 여부(boolean): containsAll()
-
+- [L_1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)
+- map.replace 는 return 값으로  oldValue 를 반환하고 만약 기존에 값이 없었으면  null 반환
+- [L_46. Permutations](https://leetcode.com/problems/permutations/)
+  - permutation은 arr, output, visited, depth, n, r 을 이용해서 dfs 로 풀어주면 된다
+  - leetcode에서는 테스트 케이스마다 static 변수가 초기화되지 않기 때문에 계속 값이 쌓이게 된다. 유의하자.
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
