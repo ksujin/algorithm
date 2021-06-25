@@ -515,30 +515,18 @@
 ### 0625
 
 - [C_BinaryGap](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/)
-
 - [C_CyclicRotation](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/)
-
 - [C_OddOccurrencesInArray](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/)
-
 - [C_FrogJmp](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/)
-
 - [C_PermMissingElem](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/)
-
 - [C_TapeEquilibrium](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/)
-
 - [C_FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/)
-
 - [C_CountDiv](https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/)
-
 - [C_Distinct](https://app.codility.com/programmers/lessons/6-sorting/distinct/)
-
 - [C_Brackets](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/)
-
 - [C_Dominator](https://app.codility.com/programmers/lessons/8-leader/dominator/)
-
 - [C_CountFactors](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/)
-
-- 
+- BFS/DFS
 
 ## 알고리즘 공부 순서
 
