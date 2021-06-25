@@ -522,6 +522,8 @@
 
 - [C_FrogJmp](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/)
 
+- [C_PermMissingElem](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/)
+
 - 
 
 ## 알고리즘 공부 순서
