@@ -534,6 +534,8 @@
 
 - [C_Brackets](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/)
 
+- [C_Dominator](https://app.codility.com/programmers/lessons/8-leader/dominator/)
+
 
 - 
 
