@@ -528,6 +528,7 @@
 - [C_CountFactors](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/)
 - BFS/DFS
 - BinarySearch
+- BubbleSort
 
 ## 알고리즘 공부 순서
 
