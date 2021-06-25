@@ -512,6 +512,10 @@
   - leetcode에서는 테스트 케이스마다 static 변수가 초기화되지 않기 때문에 계속 값이 쌓이게 된다. 유의하자.
   - 재귀호출을 하기전의 상태를 재귀호출이 끝난 뒤 되돌리는 것을 백트래킹이라고 함
 
+### 0625
+
+- [C_BinaryGap](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/)
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
