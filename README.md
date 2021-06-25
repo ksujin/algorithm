@@ -531,6 +531,7 @@
 - BubbleSort
 - SelectionSort
 - InsertionSort
+- MergeSort
 
 ## 알고리즘 공부 순서
 
