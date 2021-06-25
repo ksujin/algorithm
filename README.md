@@ -527,6 +527,7 @@
 - [C_Dominator](https://app.codility.com/programmers/lessons/8-leader/dominator/)
 - [C_CountFactors](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/)
 - BFS/DFS
+- BinarySearch
 
 ## 알고리즘 공부 순서
 
