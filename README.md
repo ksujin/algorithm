@@ -517,6 +517,9 @@
 - [C_BinaryGap](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/)
 
 - [C_CyclicRotation](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/)
+
+- [C_OddOccurrencesInArray](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/)
+
 - 
 
 ## 알고리즘 공부 순서
