@@ -526,13 +526,13 @@
 - [C_Brackets](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/)
 - [C_Dominator](https://app.codility.com/programmers/lessons/8-leader/dominator/)
 - [C_CountFactors](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/)
-- BFS/DFS
-- BinarySearch
-- BubbleSort
-- SelectionSort
-- InsertionSort
-- MergeSort
-- QuickSort
+- [BFS](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Search/BFS.swift) / [DFS](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Search/DFS.swift)
+- [BinarySearch](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Search/BinarySearch.swift)
+- [BubbleSort](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Sort/Bubble.swift)
+- [SelectionSort](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Sort/Selection.swift)
+- [InsertionSort](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Sort/Insertion.swift)
+- [MergeSort](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Sort/Merge.swift)
+- [QuickSort](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Sort/Quick.swift)
 
 ## 알고리즘 공부 순서
 
