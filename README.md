@@ -529,6 +529,7 @@
 - BFS/DFS
 - BinarySearch
 - BubbleSort
+- SelectionSort
 
 ## 알고리즘 공부 순서
 
