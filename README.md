@@ -530,6 +530,7 @@
 - BinarySearch
 - BubbleSort
 - SelectionSort
+- InsertionSort
 
 ## 알고리즘 공부 순서
 
