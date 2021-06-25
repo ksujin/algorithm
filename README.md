@@ -532,6 +532,8 @@
 
 - [C_Distinct](https://app.codility.com/programmers/lessons/6-sorting/distinct/)
 
+- [C_Brackets](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/)
+
 
 - 
 
