@@ -530,6 +530,8 @@
 
 - [C_CountDiv](https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/)
 
+- [C_Distinct](https://app.codility.com/programmers/lessons/6-sorting/distinct/)
+
 
 - 
 
