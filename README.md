@@ -534,6 +534,10 @@
 - [MergeSort](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Sort/Merge.swift)
 - [QuickSort](https://github.com/sujinnaljin/algorithm/blob/master/Swfit/Algorithm.playground/Sources/Sort/Quick.swift)
 
+### 0830
+
+- [P_42587 프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
+
 ## 알고리즘 공부 순서
 
 출처 : https://offline.startlink.help/hc/ko/articles/217245158
